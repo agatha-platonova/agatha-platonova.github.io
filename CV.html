@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        /* Общие стили */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #87CEEB;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Стили для разделительной линии */
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #333;
+            margin: 20px 0;
+        }
+
+        /* Стили заголовков */
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin: 25px 0 15px;
+            color: #222;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            margin: 20px 0 10px;
+            color: #333;
+        }
+
+
+        /* Левая колонка */
+        .left-column {
+            padding-right: 20px;
+        }
+
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .left-column {
+                padding-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="left-column">
+                <h1>Платонова Агата</h1>
+                <h3>agatha.platonova@gmail.com</h3>
+                <h2>Образование</h2>
+                
+                <ul class="experience-list">
+                    <li>Бакалавр физического факультета Санкт-Петербургского государственного университета программы “Физика”, кафедра молекулярной биофизики и физики полимеров (средний балл 4,5).</li>
+                    <li>1 курс магистратуры Высшей школы экономики программы “Вычислительная биология и биоинформатика”.</li>
+                </ul>
+                
+                <!-- <hr> -->
+                
+                <h2>Навыки</h2>
+                
+                <ul class="experience-list">
+                    <li>С 2023  по 2025года являлась частью научной группы “Биофотоника”. Моя область исследований - синтез нанокластеров благородных металлов (Cu, Ag, Au) стабилизированных олигонуклеотидами, аминокислотах и другими биологических макромолекулах . </li>
+                    <li>Моя выпускная квалификационная работа была посвящена “Синтезу биметаллических кластеров на матрице ДНК”, курсовая работа - “Синтезу золотых нанокластеров на олигонуклеотиде”. На основе литературных данных были разработаны протоколы синтеза новых металлических нанокластеров.</li>
+                    <li>Применяемые методы исследования: спектрофотометрия, спектрофлуориметрия, pH-метрия, электрофорез, вискозиметрия.</li>
+                </ul>
+
+                <h2>Исследовательская деятельность </h2>
+                
+                <ul class="experience-list">
+                    <li>Теоретическая база в таких  областях, как физика и математика.</li>
+                    <li>Работа с научной литературой в областях физики и химии на английском и русском языках.</li>
+                    <li>Проведение экспериментов в физической и биофизической лабораториях.</li>
+                    <li>английский язык (уровень B2).</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
